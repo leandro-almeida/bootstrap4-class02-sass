@@ -1,0 +1,8 @@
+nav {
+    margin: 0px auto;
+    width: $navbar-width;
+    height: $navbar-height;
+    padding: $navbar-padding;
+    background-image: linear-gradient(rgba(#000,0.9), $navbar-bgcolor);
+    box-shadow: $navbar-box-shadow;
+}

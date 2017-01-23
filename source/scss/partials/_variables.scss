@@ -1,0 +1,28 @@
+/*---------------------*
+ * Basic Setup
+ *---------------------*/
+$base-font-size: 16px;
+$base-font-family: 'Fira Sans', sans-serif;
+$base-font-weight: 500;
+
+/*---------------------*
+ * Components Variables
+ *---------------------*/
+
+/*------ Navbar -------*/
+$navbar-bgcolor: #34495e;
+$navbar-width: 600px;
+$navbar-height: 80px;
+$navbar-padding: 0 30px;
+$navbar-box-shadow: 0px 5px 15px #7f8c8d;
+
+
+/*------ Navbar Brand/Links -------*/
+$navbar-link-margin-top: (($navbar-height / 2) - 10px);
+$navbar-link-color: #3498db;
+$navbar-link-text-decoration: none;
+$navbar-link-padding: 29px 20px;
+$navbar-link-hover-color: #fff;//#1abc9c;
+$navbar-link-hover-bgcolor: #2c3e50;
+$navbar-link-hover-border-bottom: 4px solid #2980b9;
+$navbar-link-hover-box-shadow: 0px 0px 15px #fff;

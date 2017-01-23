@@ -1,0 +1,5 @@
+@mixin link-hover-theme-config($text-color, $bg-color, $border) {
+    color: $text-color;
+    background-color: $bg-color;
+    border-bottom: $border;
+}
