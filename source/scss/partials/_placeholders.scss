@@ -1,25 +1,8 @@
-%navbar-style {
+%navbar-item-format {
     list-style: none;
     margin-top: $navbar-link-margin-top;
 
     li {
         display: inline-block;
-        
-        a {
-            text-decoration: $navbar-link-text-decoration;
-            padding: $navbar-link-padding;
-
-            &:link,
-            &:visited {
-                color: $navbar-link-color;
-                transition: background-color 0.3s, box-shadow 0.3s, color 0.3s;
-            }
-
-            &:hover,
-            &:active {
-                @include link-hover-theme-config($navbar-link-hover-color, $navbar-link-hover-bgcolor, $navbar-link-hover-border-bottom);
-                box-shadow: $navbar-link-hover-box-shadow;
-            }
-        }
     }
 }
