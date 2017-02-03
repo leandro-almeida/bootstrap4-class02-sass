@@ -1,6 +1,7 @@
 {
   "name": "bootstrap4-class02-sass",
   "version": "1.0.0",
+  "author": "leandroalmeida <almeida85@gmail.com>",
   "description": "Practicing SASS features",
   "main": "index.js",
   "scripts": {
